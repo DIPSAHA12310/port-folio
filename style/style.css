@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.common-btn{
+   background-color: rgb(255, 166, 0);
+   padding: 8px 4px;
+   border-radius: 15px;
+   font-size: 22px;
+   color: aliceblue;
+   cursor: pointer;
+   
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    align-items: center;
+
+    /* max-width: 1200px; */
+    /* margin: 0 auto;  */
+}
+ul{
+    display: flex;
+   
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+header{
+    /* width: 600px; */
+    margin: 0 auto;
+   
+}
+
+ul li a{
+   text-decoration: none;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+    
+}
+.logo .D{
+   color: brown;
+}
+.hero-parent{
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(246, 231, 204) ; */
+}
+
+ .hero-content{ 
+     width: 50%;
+    font-style: italic;
+    font-size: 20px;
+   
+   
+}
+
+   
+
+.hero-image{
+    width: 50%;
+    text-align: right;
+
+    
+}
+
+.hero-image img{
+    width: 400px;
+}
+.Dip contain{
+     font-size: 40px;
+}
+
+.contact-btn{
+    background-color: cornsilk;
+   padding: 8px 4px;
+   border-radius: 15px;
+   font-size: 22px;
+   
+   cursor: pointer;
+}
+
+.hero-left-btn-parent{
+    margin-top: 13px;
+}
+ 
+body{
+    background-color: rgb(220, 208, 186);
+}
