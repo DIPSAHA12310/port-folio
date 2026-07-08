@@ -97,3 +97,138 @@ ul li a{
 body{
     background-color: rgb(220, 208, 186);
 }
+
+.about-parent{
+    background-color:whitesmoke;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 70px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px 0px ;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.about-box-parent .box{
+    background-color:#F8F9FA;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo-pic img{
+    width: 32px;
+    height: 32px;
+}
+
+.what-i-d0-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 8px solid rgb(238, 192, 107) ;
+    padding: 10px;
+    border-radius: 8px;
+}
+.about-parent-what{
+background-color:  rgb(245, 220, 173) ;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 70px;
+    text-align: center;
+
+}
+.what-i-do-card-container .what-i-do-card h3{
+    margin: 10px;
+}
+
+.what-i-do-card-container .what-i-do-card p{
+    font-style: italic;
+    color: black;
+    font-size: 15px;
+}
+.summary-title{
+    text-align: center;
+}
+.summary-section{
+    margin-top: 10%;
+}
+
+.summary-container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.education .experience{
+    width: 50%;
+}
+
+/* my amaging work  */
+.my-amaging-parent{
+    text-align: center;
+    gap: 20px;
+
+}
+.my-amaging-parent-container{
+    margin-top: 10%;
+}
+.amaing{
+    text-align: center;
+}
+.gallery{
+    margin-top: 20px;
+    display: grid;
+ grid-template-columns:repeat(2,1fr);
+ gap: 12px;
+ 
+}
+.gallery img{
+    height: 60%;
+    width: 60%;
+    object-fit: cover;
+
+}
+/* footer  */
+.icon-img img{
+   
+    width: 32px;
+    height: 32px;
+   
+}
+.icon-img{
+  display: flex;
+}
+footer{
+    background-color: #F8F9FA;
+    text-align: center;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+footer form{
+    padding: 2%;
+}
+footer form input{
+    outline: none;
+    border: none;
+    background-color: wheat;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom:8px; 
+}
