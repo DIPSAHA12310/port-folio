@@ -53,6 +53,7 @@ ul li a{
 .logo .D{
    color: brown;
 }
+
 .hero-parent{
     max-width: 800px;
     margin: 0 auto;
@@ -139,9 +140,9 @@ color:white;
 }
 
 .about-parent{
-    background-color:whitesmoke;
+     background: #1E293B;
     margin: 70px auto;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 70px;
     text-align: center;
 }
@@ -153,9 +154,10 @@ color:white;
     justify-content: space-between;
 }
 .about-box-parent .box{
-    background-color:#F8F9FA;
-    padding: 5px;
-    border-radius: 5px;
+   background:#0F172A;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid orange;
 }
 .logo-pic img{
     width: 32px;
@@ -163,20 +165,47 @@ color:white;
 }
 
 .what-i-d0-parent{
-    margin: 60px auto;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
     text-align: center;
 }
+.what-i-do-parent h1{
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.what-i-do-parent p{
+    color: #d1d5db;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
 .what-i-do-card-container{
-    margin: 25px;
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    
 
 }
-.what-i-do-card-container .what-i-do-card{
-    border: 8px solid rgb(238, 192, 107) ;
-    padding: 10px;
-    border-radius: 8px;
+ .what-i-do-card{
+   background: #1E293B;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 30px 20px;
+    
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+.what-i-do-card:hover{
+   
+    border-color: orange;
+    box-shadow: 0 10px 25px rgba(255,165,0,.4);
+}
+.what-i-do-card img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 20px;
 }
 .about-parent-what{
 background-color:  rgb(245, 220, 173) ;
@@ -186,14 +215,20 @@ background-color:  rgb(245, 220, 173) ;
     text-align: center;
 
 }
-.what-i-do-card-container .what-i-do-card h3{
-    margin: 10px;
+ .what-i-do-card h3{
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 15px;
+     
+}
+.what-i-do-card h1{
+    font-size:30px;
 }
 
-.what-i-do-card-container .what-i-do-card p{
-    font-style: italic;
-    color: black;
-    font-size: 15px;
+.what-i-do-card p{
+     color: #cbd5e1;
+    font-size: 16px;
+    line-height: 1.7;
 }
 .summary-title{
     text-align: center;
