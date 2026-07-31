@@ -115,11 +115,11 @@ border:5px solid orange;
     margin: 50px 0;
 }
 .Botom{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
     justify-content: center;
-    /* text-align: center; */
-  gap: 40px;
-  margin-top: 50px;
+    gap: 40px;
+    margin-top: 50px;
 }
 
 .Dip .contain{
