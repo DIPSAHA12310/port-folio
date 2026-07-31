@@ -105,9 +105,14 @@ border:5px solid orange;
     border-radius: 20px;
 }
 .WHEEL{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
+     color: orange;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 50px 0;
 }
 .Botom{
     display: flex;

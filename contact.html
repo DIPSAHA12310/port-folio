@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <script>
+    function submitForm() {
+        alert("Submitted Successfully!");
+        window.location.href = "index.html";
+    }
+    </script>
      <Header>
     <nav>
 
@@ -15,7 +21,7 @@
         </h2>
         <ul>
              <li>
-               <a href="allProject.html">Project</a>
+               <a href="index.html">Project</a>
             </li>
             <li>
                <a href="">portfolio</a>
@@ -59,7 +65,9 @@
             <textarea name="massage" id="massage3" placeholder="Tell me about your project "></textarea>
         </div>
         <div class="conbtn">
-            <a href="" class="common-btn">Submit</a>
+           <button type="button" class="common-btn" onclick="submitForm()">
+    Submit
+</button>
         </div>
         </div>
 
